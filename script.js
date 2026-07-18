@@ -1,18 +1,11 @@
-const timer = document.getElementById("timer");
+function showHelp() {
 
-let seconds = 2;
+    const help = document.getElementById("helpText");
 
-const countdown = setInterval(() => {
-    seconds--;
-
-    if (seconds >= 0) {
-        timer.textContent = seconds;
+    if (help.style.display === "none") {
+        help.style.display = "block";
+    } else {
+        help.style.display = "none";
     }
 
-    if (seconds <= 0) {
-        clearInterval(countdown);
-
-        window.location.href = "https://t.me/ins1demedia";
-    }
-
-}, 1000);
+}
