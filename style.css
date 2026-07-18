@@ -166,3 +166,24 @@ margin-top:20px;
 font-size:15px;
 opacity:.75;
 }
+.secondary{
+margin-top:15px;
+background:rgba(255,255,255,.08);
+border:1px solid rgba(255,255,255,.15);
+cursor:pointer;
+}
+
+.secondary:hover{
+background:rgba(255,255,255,.15);
+}
+
+.hint{
+margin-top:18px;
+font-size:15px;
+line-height:1.6;
+opacity:.9;
+padding:15px;
+border-radius:15px;
+background:rgba(255,255,255,.06);
+border:1px solid rgba(255,255,255,.08);
+}
